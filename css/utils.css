@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+:root {
+    --general: "Roboto", sans-serif;
+    --general2: "Fira Sans", sans-serif;
+    --title: "Noto Serif", serif;
+    --subtitle: 'Berkshire Swash', cursive;
+    --font-color: white;
+    --content-bgcolor: #3f2a148f;
+    /*  #7c9bb1*/
+}
+
+.m-width1 {
+    max-width: 90vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.btn {
+    padding: 5px 5px;
+    font-size: .9em;
+    font-family: var(--title);
+    border-radius: 15vw;
+}
