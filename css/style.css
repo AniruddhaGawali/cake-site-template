@@ -6,6 +6,8 @@
 body {
     padding: 0;
     margin: 0;
+    justify-content: center;
+    align-items: center;
     background: #7c9bb14f url(../img/bg-img.png);
     background-position: center center;
     background-repeat: no-repeat;
@@ -15,11 +17,13 @@ body {
 }
 
 .nav-bar {
+    width: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
     padding: 10px 0px;
+    background-color: #7c9bb18e;
+    padding: 10px 60px;
 }
 
 .left-nav {
@@ -31,8 +35,9 @@ body {
 
 .left-nav img {
     width: 50px;
-    border: 2px solid white;
+    border: 3px solid #5b8caf;
     border-radius: 15vw;
+    margin-right: 30px;
 }
 
 .left-nav ul {
@@ -50,6 +55,7 @@ body {
 .left-nav ul li a {
     text-decoration: none;
     color: white;
+    /* color: #5989ad; */
 }
 
 .right-nav {
@@ -59,10 +65,11 @@ body {
 }
 
 .search-bar input {
-    font-size: 1em;
+    font-size: 0.8em;
     border-radius: 15vw;
     border: 2px solid white;
-    padding: 2px 0px;
+    padding: 6.5px 10px;
+    margin: 0 10px;
 }
 
 .search-btn {
@@ -90,14 +97,14 @@ header {
 
 header h1 {
     color: #7c9bb1;
-    font-size: 3em;
+    font-size: 6em;
     -webkit-text-stroke: 2px white;
     font-family: var(--title);
 }
 
 header h3 {
     color: #7c9bb1;
-    font-size: 1.5em;
+    font-size: 2em;
     -webkit-text-stroke: 0.1px white;
     font-family: var(--subtitle);
 }
@@ -125,7 +132,7 @@ header h3 {
 
 .left-main-content {
     display: flex;
-    font-size: 1em;
+    font-size: 1.3em;
     font-family: var(--general2);
     justify-content: center;
     align-items: center;
@@ -140,5 +147,53 @@ header h3 {
     justify-content: center;
     align-items: center;
     border-radius: 15vw;
+    border: 3px solid white;
     margin: 0px 60px;
+}
+
+.gallery {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.gallery div {
+    display: flex;
+    flex-direction: row;
+    margin: 0 50px;
+}
+
+.gallery img {
+    display: flex;
+    width: 20vw;
+    margin: 50px 50px;
+    border: 2px solid white;
+    border-radius: 1vw;
+}
+
+.gallery-contant {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.gallery-contant h1 {
+    font-family: var(--title);
+    font-size: 3.5em;
+    color: #7c9bb1;
+    -webkit-text-stroke: 2px white;
+}
+
+.gallary-view {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallary-view img {
+    width: 20vw;
+    padding: 30px;
+    /* border-radius: 15vw; */
 }
