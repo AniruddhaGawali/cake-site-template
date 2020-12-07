@@ -119,6 +119,7 @@ header h3 {
     padding: 9px;
     position: relative;
     border-radius: 12px;
+    border: 2px solid white;
 }
 
 .main-content::after {
@@ -178,11 +179,15 @@ header h3 {
     text-align: center;
 }
 
+.link a {
+    color: #7c9bb1;
+    text-decoration: none;
+    -webkit-text-stroke: 2px white;
+}
+
 .gallery-contant h1 {
     font-family: var(--title);
     font-size: 3.5em;
-    color: #7c9bb1;
-    -webkit-text-stroke: 2px white;
 }
 
 .gallary-view {
@@ -195,5 +200,50 @@ header h3 {
 .gallary-view img {
     width: 20vw;
     padding: 30px;
-    /* border-radius: 15vw; */
+    border-radius: 4vw;
+}
+
+.about-products {
+    justify-content: center;
+    text-align: center;
+}
+
+.about-products h1 {
+    font-family: var(--title);
+    font-size: 3.5em;
+    -webkit-text-stroke: 2px white;
+    color: #7c9bb1;
+}
+
+.about-content {
+    font-family: var(--general2);
+    font-size: 1.2em;
+    color: white;
+    padding: 3vw 5vw;
+}
+
+footer {
+    color: white;
+    display: flex;
+    justify-content: end;
+}
+
+.cpr {
+    font-size: 0.9em;
+    justify-content: end;
+    /* display: flex; */
+    margin-left: 41vw;
+    font-family: var(--general2);
+}
+
+.suppot-img {
+    justify-content: right;
+    margin-left: 34vw;
+    display: flex;
+}
+
+.suppot-img img {
+    width: 30px;
+    margin: 0 3px;
+    border-radius: 1vw;
 }

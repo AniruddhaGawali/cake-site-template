@@ -8,7 +8,11 @@
     --title: "Noto Serif", serif;
     --subtitle: "Berkshire Swash", cursive;
     --font-color: white;
-    --content-bgcolor: #3f2a148f;
+    --content-bgcolor: #7c9bb188;
+    --content-bgcolor2: #3f2a148f;
+    /* #7c9bb188; */
+    /* #3f2a148f; */
+    /* --------- */
     /*  #7c9bb1*/
 }
 
@@ -32,9 +36,18 @@
     text-align: center;
     background-color: var(--content-bgcolor);
     justify-content: center;
-    display: flex;
     margin-top: 32px;
     padding: 9px;
     position: relative;
     border-radius: 12px;
+    border: 2px solid white;
+}
+
+.bg2 {
+    height: 100%;
+    text-align: center;
+    background-color: var(--content-bgcolor2);
+    margin-top: 32px;
+    padding: 9px;
+    position: relative;
 }
