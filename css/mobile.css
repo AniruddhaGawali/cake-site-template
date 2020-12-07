@@ -103,6 +103,9 @@
     header h3 {
         font-size: 1.5em;
     }
+    footer {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 300px) {
