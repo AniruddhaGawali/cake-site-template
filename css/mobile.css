@@ -61,6 +61,7 @@
     }
     .left-nav img {
         margin-right: 0px;
+        width: 25vw;
     }
     .left-main-content {
         display: flex;
