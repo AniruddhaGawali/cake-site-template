@@ -43,6 +43,25 @@
 }
 
 @media screen and (max-width: 700px) {
+  .m-width2{
+    max-width: 70vw;
+  }
+  .form-box input {
+    font-size: 0.8em;
+    border-radius: 15vw;
+    border: 2px solid #7c9bb1;
+    padding: 6.5px 10px;
+    margin: 10px 10px;
+    width: 40vw;
+  }
+  .form-box textarea {
+    font-size: 1.2em;
+    border-radius: 1vw;
+    border: 2px solid #7c9bb1;
+    padding: 10px 10px;
+    margin: 50px 10px;
+    width: 50vw;
+  }
   .nav-bar {
     display: flex;
     flex-direction: column;

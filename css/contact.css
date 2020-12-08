@@ -1,0 +1,47 @@
+.contact-content {
+  justify-content: center;
+  text-align: center;
+}
+h2 {
+  font-family: var(--title);
+  font-size: 4em;
+  color: #7c9bb1;
+  -webkit-text-stroke: 2px white;
+  text-align: center;
+}
+.contact-form {
+  justify-content: center;
+  text-align: center;
+}
+.form-box {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.form-box input {
+  font-size: 0.8em;
+  border-radius: 15vw;
+  border: 2px solid #7c9bb1;
+  padding: 6.5px 10px;
+  margin: 10px 10px;
+  width: 25vw;
+}
+.form-box textarea {
+  font-size: 1.2em;
+  border-radius: 1vw;
+  border: 2px solid #7c9bb1;
+  padding: 10px 10px;
+  margin: 50px 10px;
+  width: 30vw;
+}
+.submit-btn {
+  padding: 10px 20px;
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+}
+.submit-btn:hover {
+  background: #7c9bb1;
+  color: white;
+  border: 2px solid white;
+}

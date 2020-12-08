@@ -19,6 +19,9 @@
 .m-width1 {
     max-width: 90vw;
 }
+.m-width2 {
+    max-width: 50vw;
+}
 
 .m-auto {
     margin: auto;
