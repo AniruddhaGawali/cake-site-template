@@ -64,7 +64,7 @@
     }
     .left-main-content {
         display: flex;
-        font-size: 1em;
+        font-size: 1.1em;
         font-family: var(--general2);
         justify-content: center;
         text-align: center;
